@@ -1,18 +1,16 @@
-🔎 Points clés
-Base SQLite : stockage persistant des demandes.
+🔎 Key points: (case1.py)
 
-Workflow automatisé : boucle qui traite toutes les demandes en attente.
+Class Demand: represent a request with id, description and status.
 
-Notifications : retour immédiat pour confirmer le traitement.
+Automated workflow : It manages the queue of requests and their processing.
 
-Optimisation du suivi : chaque demande est tracée avec date de création et date de traitement.
+Notifications: immediate return to confirm processing.
 
+Optimized tracking: each request is tracked with creation date and processing date.
 ----------------------------------------------------------------------------------------------------
 
-👉 Ce script peut être enrichi avec :
+👉 This script can be enhanced with :
 
-- API REST pour recevoir des demandes depuis une application web.
+- Database SQLite : persistent storage of requests --> case2.py
 
-- Planificateur pour exécuter le traitement automatiquement à intervalles réguliers.
-
-- Envoi d’emails ou notifications Slack pour informer les utilisateurs en temps réel.
+- 
